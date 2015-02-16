@@ -1,8 +1,7 @@
 #HAI WORLD
 __author__ = 'jgs3cd'
 
-def greeting(msg):
-	print(msg)
+from helper import greeting
 
-if __name__ = '__main__':
+if __name__ == '__main__':
 	greeting('hello')
